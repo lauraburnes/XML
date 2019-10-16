@@ -1,5 +1,3 @@
-
-
 <!ELEMENT event (name, location, date, time, description+)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
