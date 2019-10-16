@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE event SYSTEM "structuredauthoring.dtd">
 
 <event>
 <name="">
@@ -7,3 +8,4 @@
 <time></time>
 <description></description>
 </name>
+</event>
