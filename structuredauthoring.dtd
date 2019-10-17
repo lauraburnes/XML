@@ -3,7 +3,9 @@
 
 <!ELEMENT event (name+)>
 <!ELEMENT name (location, date, time, description)>
-<!ELEMENT location (#PCDATA)>
+<!ELEMENT location (address, city)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
 <!ELEMENT date (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
 <!ELEMENT description (#PCDATA)>

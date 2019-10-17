@@ -3,17 +3,23 @@
 
 <event>
 <name>The 19th Annual Twin Cities Book Festival
-<location> Minnesota State Fair Grounds </location>
+<location> Minnesota State Fair Grounds
+  <address>1265 Snelling Ave N</address>
+  <city>Saint Paul, MN</city>
+</location>
 <date>Saturday, October 12</date>
 <time>10:00 AM to 5:00 PM </time>
 <description> Find The Tower Magazine </description>
 </name>
 
+
 <name>Ivory Tower Launch Party
-<location> Weisman Art Museum </location>
+<location> Weisman Art Museum
+  <address>333 E. River Parkway</address>
+  <city>Minneapolis, MN</city>
+</location>
 <date>Thursday, April 27 </date>
 <time>6:00 PM </time>
 <description> Come celebrate with Ivory Tower, the undergraduate art and literary magazine! We are celebrating the 2016 magazine launch and the tenth anniversary. Visit the Weisman Art Museum at 6:00 p.m., on April 27 for music, food, readings of student literature and student art displays.</description>
 </name>
-
 </event>
