@@ -1,5 +1,8 @@
-<!ELEMENT event (name, location, date, time, description+)>
-<!ELEMENT name (#PCDATA)>
+<!DOCTYPE event [
+
+
+<!ELEMENT event (name+)>
+<!ELEMENT name (location, date, time, description)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT date (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
