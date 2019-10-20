@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE event SYSTEM "structuredauthoring.dtd">
+<!DOCTYPE news SYSTEM "structuredauthoring.dtd">
+
+<newsfeed>
+
+<newpub>
+  <title> Shadowgraph </title>
+  <description> In The Shadowgraph James Cihlar explores the ways images, performances, and memories shape and inform LGBTQ+ identity. Golden-age Hollywood cinema—in particular the career of fiercely independent actress Barbara Stanwyck—provides the screen on which Cihlar projects characters and stories bravely, even defiantly, performed. Cihlar’s commentary on individual films—as well as on human experience and desire—is intense, smart, and right on target. </description>
+  <publication> University of New Mexico Press </publication>
+  <pubdate> Spring 2020 </pubdate>
+</newpub>
 
 <event>
 <name>The 19th Annual Twin Cities Book Festival
@@ -7,12 +16,20 @@
   <address>1265 Snelling Ave N</address>
   <city>Saint Paul, MN</city>
 </location>
-<date>Saturday, October 12</date>
+<date> Saturday, October 12</date>
 <time>10:00 AM to 5:00 PM </time>
 <description> Find The Tower Magazine </description>
 </name>
+</event>
 
+<newpub>
+  <title> Johnny Quest, Eternal Boy Adventurer </title>
+  <description> In this article, Jim reflects on the adventures of Johnny Quest, a cartoon character from the 1960s </description>
+  <publication> Old Times, the Premiere Journal of Vintage, Collectible and Antique Treasures in the upper Midwest </publication>
+  <pubdate> September 2017 </pubdate>
+</newpub>
 
+<event>
 <name>Ivory Tower Launch Party
 <location> Weisman Art Museum
   <address>333 E. River Parkway</address>
@@ -23,3 +40,6 @@
 <description> Come celebrate with Ivory Tower, the undergraduate art and literary magazine! We are celebrating the 2016 magazine launch and the tenth anniversary. Visit the Weisman Art Museum at 6:00 p.m., on April 27 for music, food, readings of student literature and student art displays.</description>
 </name>
 </event>
+
+
+</newsfeed>

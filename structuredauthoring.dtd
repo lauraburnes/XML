@@ -1,5 +1,9 @@
-<!DOCTYPE event [
+<!DOCTYPE news [
 
+<!ELEMENT newsfeed (headline+)>
+<!ELEMENT headline (event, review, publication)>
+
+<!---events--->
 
 <!ELEMENT event (name+)>
 <!ELEMENT name (location, date, time, description)>
@@ -9,5 +13,20 @@
 <!ELEMENT date (#PCDATA)>
 <!ELEMENT time (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+
+<!---reviews---->
+<!ELEMENT review (book+)>
+<!ELEMENT book (summary, reviewer, credentials)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT reviewer (#PCDATA)>
+<!ELEMENT credentials (#PCDATA)>
+
+<!---publication--->
+
+<!ELEMENT newpub (title, description, publication)>
+<!ELEMENT title (description, publication, pubdate)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT publication (#PCDATA)>
+<!ELEMENT pubdate (#PCDATA)>
 
 ]>
